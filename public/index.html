@@ -8,26 +8,26 @@
   </head>
   <body>
     <div class="container mx-auto py-8">
-      <h1>Tailwind Showcase</h1>
-      <div>
-        <h2>Colors and Backgrounds</h2>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+      <h1 class="font-bold">Tailwind Showcase</h1>
+      <div class="m-5 p-2 bg-slate-100"> 
+        <h2 class="font-bold">Colors and Backgrounds</h2>
+        <div class="flex">
+          <div class="w-60 h-10 bg-slate-200 border-slate-500 border-2"></div>
+          <div class="w-60 h-10 bg-red-200 border-red-500 border-2"></div>
+          <div class="w-60 h-10 bg-yellow-200 border-yellow-500 border-2"></div>
+          <div class="w-60 h-10 bg-green-200 border-green-500 border-2"></div>
         </div>
       </div>
-      <div>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+      <div class="m-5 p-2 bg-slate-100">
+        <div class="flex">
+          <div class="w-60 h-10 bg-slate-100 border-slate-400 border-2"></div>
+          <div class="w-60 h-10 bg-slate-200 border-slate-400 border-2"></div>
+          <div class="w-60 h-10 bg-slate-300 border-slate-400 border-2"></div>
+          <div class="w-60 h-10 bg-slate-400 border-slate-400 border-2"></div>
         </div>
       </div>
-      <div>
-        <h2>Text</h2>
+      <div class="m-5 p-2 bg-slate-100">
+        <h2 class="font-bold">Text</h2>
         <p class="text-sm">This is a small text.</p>
         <p class="text-base">This is a base text.</p>
         <p class="text-lg">This is a large text.</p>
@@ -38,65 +38,65 @@
         <p class="text-8xl">This is a 8x extra large text.</p>
         <p class="text-9xl">This is a 9x extra large text.</p>
       </div>
-      <div>
-        <h2>Text Decoration</h2>
+      <div class="m-5 p-2 bg-slate-100">
+        <h2 class="font-bold">Text Decoration</h2>
         <p class="underline">This is an underlined text.</p>
         <p class="line-through">This is a line-through text.</p>
         <p class="overline">This is an overline text.</p>
       </div>
-      <div>
-        <h2>Text Alignment</h2>
+      <div class="m-5 p-2 bg-slate-100">
+        <h2 class="font-bold">Text Alignment</h2>
         <p class="text-left">This is a left-aligned text.</p>
         <p class="text-center">This is a center-aligned text.</p>
         <p class="text-right">This is a right-aligned text.</p>
       </div>
-      <div>
-        <h2>Sizes</h2>
-        <div>
-          <div class="text-xs">XS</div>
-          <div class="text-sm">SM</div>
-          <div class="text-base">BASE</div>
-          <div class="text-lg">LG</div>
+      <div class="m-5 p-2 bg-slate-100">
+        <h2 class="font-bold">Sizes</h2>
+        <div class="flex text-center">
+          <div class="text-xs w-60 h-10 bg-slate-100 border-slate-400 border-2">XS</div>
+          <div class="text-sm w-60 h-10 bg-slate-200 border-slate-400 border-2">SM</div>
+          <div class="text-base w-60 h-10 bg-slate-300 border-slate-400 border-2">BASE</div>
+          <div class="text-lg w-60 h-10 bg-slate-400 border-slate-400 border-2">LG</div>
         </div>
       </div>
-      <div class="bg-gray-200">
-        <h2 class="text">Borders</h2>
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+      <div class="m-5 p-2 bg-slate-100">
+        <h2 class="font-bold">Borders</h2>
+        <div class="flex">
+          <div class="w-60 h-10 bg-slate-100 border-slate-400 border-2"></div>
+          <div class="w-60 h-10 bg-slate-200 border-slate-400 border-2 rounded-sm"></div>
+          <div class="w-60 h-10 bg-slate-300 border-slate-400 border-2 rounded"></div>
+          <div class="w-60 h-10 bg-slate-400 border-slate-400 border-2 rounded-3xl"></div>
         </div>
       </div>
       <div>
+        <div class="m-5 p-2 bg-slate-100">
+          <h2 class="font-bold">Margin</h2>
+          <div class="m-6 w-6/8 h-10 bg-slate-200 border-slate-400 border-2">This div has a margin of 1.5rem on all sides</div>
+          <div class="my-12 mx-6 w-6/8 h-10 bg-slate-300 border-slate-400 border-2">This div has a horitzontal margin of 1.5rem and a vertical margin of 3rem.</div>
+          <div class="mt-4 mr-8 mb-12 ml-16 w-6/8 h-10 bg-slate-400 border-slate-400 border-2">This div has a margin of 1rem on the top, 2rem on the right, 3rem on the bottom, and 4rem on the left.</div>
+        </div>
         <div>
-          <h2>Margin</h2>
+          <h2 class="font-bold">Padding</h2>
           <div></div>
           <div></div>
           <div></div>
         </div>
         <div>
-          <h2>Padding</h2>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-        <div>
-          <h2>Card 1</h2>
+          <h2 class="font-bold">Card 1</h2>
           <div>
             <img
               src="https://via.placeholder.com/300x200"
               alt="Placeholder image"
             />
-            <h3>Card Title</h3>
+            <h3 class="font-bold">Card Title</h3>
             <p>This is a basic card example with an image and no flex.</p>
             <a href="#">Button</a>
           </div>
         </div>
         <div>
-          <h2>Card 2</h2>
+          <h2 class="font-bold">Card 2</h2>
           <div>
-            <h3>Card Title</h3>
+            <h3 class="font-bold">Card Title</h3>
             <p>This is a basic card example with no image and no flex.</p>
             <ul>
               <li>Item 1</li>
@@ -107,7 +107,7 @@
           </div>
         </div>
         <div>
-          <h2>Buttons</h2>
+          <h2 class="font-bold">Buttons</h2>
           <button>Button 1</button>
           <button>Button 2</button>
           <button>Button 3</button>
